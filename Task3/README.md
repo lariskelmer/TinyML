@@ -6,5 +6,6 @@ Apesar de não serem novidades no meio acadêmico, a popularização de técnica
 
 O artigo completo para esta tarefa pode ser encontrado em:
 https://medium.com/@lariskelmer/is-this-santa-c1a13980df40
+
 Uma breve apresentação também foi feita em forma de vídeo e pode ser encontrada em:
 https://www.loom.com/share/72d2832e79324b8cb9aec9295b4b66a8
