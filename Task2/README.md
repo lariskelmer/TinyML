@@ -10,10 +10,10 @@ O sweep levou em consideração as seguintes configurações:
 
 ```
 1. método para sweep: 'bayes' 
-# o método "bayes"
+# "método", aqui, leva em consideração o tipo de varredura a ser feito. O "bayes" usa um processo gaussiano para modelar as relações entre parâmetros e a métrica escolhida.
 2. métricas:
  - nome: 'val_loss',
- # 
+ # métrica tomada como objetivo: nesse caso, o objetivo é a minimização da perda da validação.
  - objetivo: 'minimize'
 3. parâmetros:
  - camada de batch: [True, False]
@@ -28,14 +28,14 @@ O sweep levou em consideração as seguintes configurações:
 
 ## Resultados
 
+Diversos *sweeps* foram realizados durante o período de teste da ferramenta, porém selecionou-se os últimos 20 para ilustrar o comportamento, conforme gráficos que se seguem.
 ![image](https://user-images.githubusercontent.com/37004361/209260354-ef96fcd6-e4b8-4417-a8fc-9ab80894b8a6.png)
-
 
 ![Acurácia por época](https://user-images.githubusercontent.com/37004361/209259633-d9b65dbf-9fd1-49bf-8cbb-f383aaf4e7e5.png)
 
 ![Parâmetros e acurácia final](https://user-images.githubusercontent.com/37004361/209259845-7fa05657-b321-4ed6-94ac-ea818bebbb1c.png)
 
-
+O mais interessante do experimento foi a percepção de que há formas diversas, quando o assunto é parâmetro, para se atingir bons resultados e que o resultado pode não vir de onde se espera, mas do conjunto de fatores ou de fatores inexplorados, mas que estão mantendo uma média inicial alta.
 ![Correlação parâmetros e acurácia](https://user-images.githubusercontent.com/37004361/209259196-2417e0b0-c02b-4b1e-9f57-16a617ad28c8.png)
 
 
@@ -47,3 +47,5 @@ O sweep levou em consideração as seguintes configurações:
 [2] https://www.tensorflow.org/datasets/catalog/mnist
 
 [3] https://docs.wandb.ai/guides/sweeps
+
+[4] https://github.com/ivanovitchm/embedded.ai - Os códigos e comentários iniciais do notebook baseiam-se no material do professor da disciplina.
