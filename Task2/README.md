@@ -33,8 +33,6 @@ Diversos *sweeps* foram realizados durante o período de teste da ferramenta, po
 
 ![Acurácia por época](https://user-images.githubusercontent.com/37004361/209259633-d9b65dbf-9fd1-49bf-8cbb-f383aaf4e7e5.png)
 
-![Parâmetros e acurácia final](https://user-images.githubusercontent.com/37004361/209259845-7fa05657-b321-4ed6-94ac-ea818bebbb1c.png)
-
 O mais interessante do experimento foi a percepção de que há formas diversas, quando o assunto é parâmetro, para se atingir bons resultados e que o resultado pode não vir de onde se espera, mas do conjunto de fatores ou de fatores inexplorados, mas que estão mantendo uma média inicial alta.
 ![Correlação parâmetros e acurácia](https://user-images.githubusercontent.com/37004361/209259196-2417e0b0-c02b-4b1e-9f57-16a617ad28c8.png)
 
